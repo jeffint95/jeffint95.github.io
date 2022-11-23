@@ -1,40 +1,40 @@
 body{
-        margin: 0;
-        padding: 0;
-        background:rgb(255, 255, 255)
+  margin: 0;
+  padding: 0;
+  background:rgb(255, 255, 255)
 }
-   *{
-    text-align: center;
-    }
-    body 
-    {
-    text-align: center;
-    color:rgb(0, 0, 0)
-    }
-    body 
-    {
-      margin: auto;
-      width: 640px; 
-      padding: 50px;
-      font-family: 'Lexend Deca', sans-serif; 
-      color: #2E475D;    
-      text-align: center;
-    }
+*{
+text-align: center;
+}
+body 
+{
+text-align: center;
+color:rgb(0, 0, 0)
+}
+body 
+{
+margin: auto;
+width: 640px; 
+padding: 50px;
+font-family: 'Lexend Deca', sans-serif; 
+color: #2E475D;    
+text-align: center;
+}
 .container{
-  display: inline-block;
+display: inline-block;
 }
 .typed-out
 {
-  overflow: hidden;
-  border-right: .15em solid rgb(255, 255, 255);
-  white-space: nowrap;
-  animation: typing 2.5s steps(50, end) forwards;
-  font-size: 1.6rem;
-  width: 0;
-  color:rgb(0, 0, 0)
+overflow: hidden;
+border-right: .15em solid rgb(255, 255, 255);
+white-space: nowrap;
+animation: typing 2.5s steps(50, end) forwards;
+font-size: 1.6rem;
+width: 0;
+color:rgb(0, 0, 0)
 }
 @keyframes typing
 {
-  from { width: 0 }
-  to { width: 100% }
+from { width: 0 }
+to { width: 100% }
 }
