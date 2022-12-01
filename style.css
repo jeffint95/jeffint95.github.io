@@ -48,18 +48,3 @@ to { width: 100% }
 p.indent {
   text-indent: 30px;
 }
-
-/*scaling*/
-@media (max-width:600px){ 
-  .flex-container {
-   flex-direction: column;
-}
-.img img{ 
-   padding-left: 15vh;
-} 
-.nameblock{
-   width:90%;
-   margin: auto;
-   padding-left:0;
-}
-}
