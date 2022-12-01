@@ -37,3 +37,11 @@ color:rgb(0, 0, 0)
 from { width: 0 }
 to { width: 100% }
 }
+.resume
+{
+  text-align: left;
+}
+.padding
+{
+  padding-bottom: 25px;
+}
