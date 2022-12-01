@@ -44,6 +44,12 @@
     </div>
 </html>
 
-<p>
-  Or contact me by <a href="mailto:email@example.com">email.</a>
-</p>
+<p>Click the button to copy my email below: <button onclick="myFunction()">BUTTON!</button></p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "firstname.secondname@domain.com";
+}
+</script>
