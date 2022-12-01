@@ -50,17 +50,16 @@ p.indent {
 }
 
 /*scaling*/
-.scaling{
-  @media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
-.css-element {
-yourcsscode:;
+@media (max-width:600px){ 
+  .flex-container {
+   flex-direction: column;
 }
-   }
+.img img{ 
+   padding-left: 15vh;
+} 
+.nameblock{
+   width:90%;
+   margin: auto;
+   padding-left:0;
 }
-.css-element{
-  display:block;
-  }
-  .css-element{
-    display:none;
-    }  
+}
