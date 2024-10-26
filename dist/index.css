@@ -545,15 +545,14 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--text-color);
 }
+
 :root {
   --bg-color: #fff;
   --text-color: rgb(10, 10, 10);
   --blog-gray-color: rgb(80, 80, 80);
-  --background-image: linear-gradient(
-      90deg,
+  --background-image: linear-gradient(90deg,
       rgba(10, 10, 10, 0.4),
-      rgb(10, 10, 10, 0.4)
-    ),
-    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80");
+      rgb(10, 10, 10, 0.4)),
+    url("https://images.unsplash.com/photo-1604879616509-d841eec0ca4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --background-background: #fff;
 }
