@@ -240,6 +240,16 @@ body {
   background-repeat: no-repeat !important;
 }
 
+/*rotate image 360deg*/
+.rotate_01 {
+  transition: transform 1s ease;
+}
+
+.rotate_01:hover {
+  transform: rotate(360deg) translateZ(0);
+}
+
+
 #profile div {
   font-weight: bold;
   margin: 1.5vh 0px;
