@@ -79,6 +79,12 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
+#display h2 {
+  font-size: 25px;
+  color: var(--text-color);
+  font-family: "Questrial", sans-serif;
+}
+
 .emoji {
   width: 18px;
   height: 18px;
